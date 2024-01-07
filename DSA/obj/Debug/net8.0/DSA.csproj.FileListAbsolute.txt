@@ -1,0 +1,14 @@
+C:\Users\User\RiderProjects\DSA\DSA\bin\Debug\net8.0\DSA.exe
+C:\Users\User\RiderProjects\DSA\DSA\bin\Debug\net8.0\DSA.deps.json
+C:\Users\User\RiderProjects\DSA\DSA\bin\Debug\net8.0\DSA.runtimeconfig.json
+C:\Users\User\RiderProjects\DSA\DSA\bin\Debug\net8.0\DSA.dll
+C:\Users\User\RiderProjects\DSA\DSA\bin\Debug\net8.0\DSA.pdb
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\DSA.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\DSA.AssemblyInfo.cs
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\DSA.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\DSA.dll
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\refint\DSA.dll
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\DSA.pdb
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\DSA.genruntimeconfig.cache
+C:\Users\User\RiderProjects\DSA\DSA\obj\Debug\net8.0\ref\DSA.dll
