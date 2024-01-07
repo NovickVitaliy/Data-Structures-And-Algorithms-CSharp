@@ -1,7 +1,15 @@
-﻿using DSA.SortingAlgorithms;
+﻿using DSA.DataStructures;
+using DSA.SortingAlgorithms;
 
-int[] arr = { 6, 3, 2, 6, 5, 4, 5, 3, 2, 3, 4, 8, 9, 7, 6, 9, 9, 7 };
-InsertionSort<int> insertionSort = new InsertionSort<int>();
+Array<int> ints = new Array<int>();
+ints.Add(5);
+ints.Add(2);
+ints.Add(7);
+ints.Add(1);
+ints.Add(999, 3);
+ints.Delete(2);
+foreach (var i in ints)
+{
+    Console.WriteLine(i);
+}
 
-insertionSort.Sort(arr);
-Console.WriteLine();
