@@ -1,18 +1,16 @@
 ﻿using DSA.DataStructures;
 using DSA.DataStructures.LinkedList;
+using DSA.DataStructures.LinkedList.DoubleLinkedList;
 using DSA.SortingAlgorithms;
 
 
-SingleLinkedList<int> ints = new SingleLinkedList<int>();
-ints.Add(5);
-ints.Add(2);
-ints.Add(1);
-ints.Add(6);
-ints.Add(7);
-ints.Modify(0, 9);
-ints.Modify(2, 99);
-ints.Modify(4, 999);
-ints.Reverse();
+DoubleLinkedList<int> list = new DoubleLinkedList<int>();
+list.Add(1);
+list.Add(2);
+list.Add(3);
+list.Add(9, 0);
+list.Add(99, 2);
+list.Add(999, 4);
+var doubleLinkedListNode = list.GetNode(val => val == 999);
 Console.WriteLine();
 
-class Student;
