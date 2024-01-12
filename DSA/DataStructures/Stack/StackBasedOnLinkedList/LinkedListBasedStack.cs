@@ -14,13 +14,11 @@ public class LinkedListBasedStack<T>
             return;
         }
 
-        var runner = _head;
-        while (runner.Next != null)
+        var newNode = new LinkedListBasedStackNode<T>(data)
         {
-            runner = runner.Next;
-        }
-
-        runner.Next = new LinkedListBasedStackNode<T>(data);
+            Next = _head
+        };
+        _head = newNode;
     }
 
     public T Pop()
@@ -30,18 +28,9 @@ public class LinkedListBasedStack<T>
             throw new Exception($"Stack is empty");
         }
 
-        LinkedListBasedStackNode<T> previous = null;
-        var runner = _head;
-
-        while (runner.Next != null)
-        {
-            previous = runner;
-            runner = runner.Next;
-        }
-
+        var data = _head.Data;
+        _head = _head.Next;
         Size--;
-        var data = runner.Data;
-        previous.Next = null;
         return data;
     }
 
@@ -52,14 +41,7 @@ public class LinkedListBasedStack<T>
             throw new Exception($"Stack is empty");
         }
 
-        var runner = _head;
-
-        while (runner.Next != null)
-        {
-            runner = runner.Next;
-        }
-
-        return runner.Data;
+        return _head.Data;
     }
 
     public void Clear()

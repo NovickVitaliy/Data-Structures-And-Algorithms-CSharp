@@ -10,6 +10,11 @@ ints.Push(1);
 ints.Push(2);
 ints.Push(3);
 ints.Push(4);
-var data = ints.Contains(e => e == 4);
+var data = ints.Pop();
 Console.WriteLine(data);
-
+data = ints.Pop();
+Console.WriteLine(data);
+data = ints.Pop();
+Console.WriteLine(data);
+data = ints.Pop();
+Console.WriteLine(data);
