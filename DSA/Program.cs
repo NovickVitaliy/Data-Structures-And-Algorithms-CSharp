@@ -1,20 +1,23 @@
 ﻿using DSA.DataStructures;
 using DSA.DataStructures.LinkedList;
 using DSA.DataStructures.LinkedList.DoubleLinkedList;
+using DSA.DataStructures.Stack.StackBasedOnArray;
 using DSA.DataStructures.Stack.StackBasedOnLinkedList;
 using DSA.SortingAlgorithms;
 
 
-LinkedListBasedStack<int> ints = new LinkedListBasedStack<int>();
+ArrayBasedStack<int> ints = new ArrayBasedStack<int>(4);
 ints.Push(1);
 ints.Push(2);
 ints.Push(3);
 ints.Push(4);
-var data = ints.Pop();
+bool exists = ints.Contains(e => e == 3);
+Console.WriteLine(exists);
+var data = ints.Peek();
 Console.WriteLine(data);
-data = ints.Pop();
+data = ints.Peek();
 Console.WriteLine(data);
-data = ints.Pop();
+data = ints.Peek();
 Console.WriteLine(data);
-data = ints.Pop();
+data = ints.Peek();
 Console.WriteLine(data);
